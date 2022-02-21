@@ -1,0 +1,65 @@
+.container{
+    width: 1350px;
+    height: 930px;
+    margin-left: 370px;
+}
+
+.flex{
+    display: flex;
+}
+
+[class*="col-"]{
+    height: 15px;
+}
+
+.full{
+    height: 100%;
+    width: 100%;
+}
+
+.star{
+    background-color: rgb(234, 186, 0);
+}
+
+.black{
+    background-color: black;
+}
+
+.fur{
+    background-color: rgb(224, 171, 93);
+}
+
+.fur-shadow{
+    background-color: rgb(219, 145, 27);
+}
+
+.grey{
+    background-color: rgb(191, 191, 191);
+}
+
+.white{
+    background-color: rgb(255, 255, 255);
+}
+
+.brown{
+    background-color: rgb(67, 26, 24);
+}
+
+.nose{
+    background-color: rgb(118, 51, 34);
+}
+
+.rose{
+    background-color: rgb(253, 157, 124);
+}
+
+.hand{
+    background-color: rgb(247, 241, 224); 
+}
+
+.hand-shadow{
+    background-color: rgb(248, 224, 146);
+}
+.bug{
+    flex-basis:calc((100% / 12) * 6)
+}
